@@ -1,0 +1,202 @@
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0 0 1em 0;
+	font-size: 93%;
+	line-height: 1.5em;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	margin: 0 0 10px 0;
+}
+
+#logo {
+  height: 100px;
+  float:left
+  display:block;
+  margin:auto;
+}
+
+#logo h1 {
+  float: left;
+  line-height: 100px;
+  padding: 10px;
+}
+
+#logo img{
+  max-height: 100%;
+  width: auto; 
+}
+
+/* Section Inner */
+div.section-inner {  
+	width: 90%;
+	margin-left: 5%;
+}
+
+/* Header */
+div.header {  
+	background-color: #E9E9E9;
+	padding: 40px 0;
+}
+
+/* Navigation */
+div.nav {
+	background-color: #d4d4d4;
+}
+
+div.nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+div.nav ul li {
+	list-style: none;
+	float: left;
+	font-size: 93%;
+}
+
+div.nav ul li a:link,
+div.nav ul li a:visited {
+	display: block;
+	padding: 10px 15px;
+	text-decoration: none;
+	color: #000;
+	border-right: 1px solid #bababa;
+}
+
+div.nav a:hover {
+  background-color: orange;
+}
+
+div.mid {
+  padding-top: 20px;
+	padding-bottom: 100px;
+}
+
+div.left {  
+	width: 300px;
+  height: 100%;  
+	float:left;
+}
+
+div.left li {
+	width: 33%;
+  padding: 0 10px 20px 0;
+	list-style: none;
+	float: left;
+}
+
+div.content {  
+	width: 60%;
+  float: right;
+  position: relative;
+}
+
+div.content h1 {
+  padding-top: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+div.content img {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+div.footer {
+	background-color: #3f3f3f;
+	color: #FFF;
+	text-align: center;
+	height: 100px;
+  margin-top: 100px;
+  position: relative;
+  clear: both;
+}
+
+div.members {
+  margin: 0 auto;
+  width: 100%;
+}
+
+div.member {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 40%;
+  margin-right: 5%;
+  float: left;
+}
+
+div.member img {
+  float:left;
+  width: 40%;
+}
+
+div.member div {
+  float: right;
+  width: 50%;
+}
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+@media screen and (max-width: 850px) {
+  div.left {
+    width: 150px;
+  }
+  
+  div.left li {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+	div.nav ul li {
+		width: 33%;
+	}    
+  
+   .hide-mobile {
+		display: none;
+	}		
+  
+  div.content {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  div.member {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+	div.nav ul li {
+		width: 50%;
+		font-size: 85%;
+	}
+  
+  div.content h1 {
+    font-size: 85%;
+  }
+}
