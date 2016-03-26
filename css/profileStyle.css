@@ -1,20 +1,65 @@
-.LeftTitle
-{
+div.left ul {
+	overflow:hidden; 
+	overflow-y:auto;
+	height: 90%;
+}
+
+div.left h2 {
     border-bottom-style: solid;;
     border-bottom-color:  #66ffd9;
-    font-size: 20px;
+}
+
+div.ThisIsMe img {
+	width: 50%;
+	border-radius: 15%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.ThisIsMe {
 
 }
 
-.ThisIsMe img
-{
-  border-radius: 15%;
+div.ThisIsMe li {
+	padding-top: 5px;
+	padding-bottom: 5px;
+    white-space:normal;
 }
-.ThisIsMe
-{
-  padding-left: 35%;
+
+div.ThisIsMe ul {
+	padding-top: 20px;
+	padding-bottom: 20px;
+    display: table;
+    margin: 0 auto;
 }
-.ThienThu p
-{
-    font-size: 20px;
+
+@media screen and (max-width: 700px) {
+	div.bottom {
+		margin-top: 10px;
+		margin-left: -1%;
+		width: 90%;		
+		height: 70%;
+		position: relative;		
+
+	}
+
+	div.bottom ul {
+		height: 70%;
+		overflow:hidden; 
+		overflow-y:auto;
+	}
+
+	div.left {
+		border-right-style: none;
+		border-right-color: #66ffd9;
+	}
+
+	div.bottom h2 {
+		padding-left: 10px;
+		border-top-style: solid;;
+	    border-top-color: #66ffd9;
+		border-bottom-style: solid;;
+	    border-bottom-color: #66ffd9;
+	}
 }

@@ -83,10 +83,10 @@ nav a:hover, nav a:focus {
 }
 
 div.mid {
-	overflow: hidden;
+    overflow: hidden;
     position: relative;
     width: 100%;
-	padding-top: 20px;
+    padding-top: 20px;
 }
 
 div.left {  
@@ -97,6 +97,10 @@ div.left {
 	height: 100%;    
 	position: absolute;
 	left: 5.7%;
+}
+
+div.left h2 {
+    padding-left: 10px;
 }
 
 div.left li {
@@ -175,7 +179,10 @@ div.footer
   }   
   
   div.content {
-    width: 100%;
+    display:inline-block;
+    white-space:nowrap;
+    float: none;
+    width: 100%;      
   }
 }
 
