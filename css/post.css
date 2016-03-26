@@ -66,3 +66,21 @@ textarea
   height: 100%;
 
 }
+
+@media screen and (max-width: 320px) {
+	.author img
+	{
+		display: none;
+	}
+
+	.author p
+	{
+		font-style: italic;
+	}
+
+	textarea
+	{
+		height: 50px;
+	}
+
+}
