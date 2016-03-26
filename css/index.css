@@ -1,0 +1,55 @@
+div.members {
+    text-align: center;
+    width: 100%;
+}
+
+div.memberLeft, div.memberRight {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 50%;
+    display: inline-block;  
+}
+
+div.memberLeft p, div.memberRight p {
+	text-align: center;
+	vertical-align: middle;	
+}
+
+div.memberLeft img, div.memberRight img {
+	border-radius: 25%;
+	height: 40%;
+}
+
+div.memberLeft {
+	float: left;
+}
+
+div.memberRight {
+	float: right;
+}
+
+@media screen and (max-width: 650px) {
+	div.member {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		width: 100%;
+	}
+
+	div.member p {
+		text-align: center;
+		vertical-align: middle;	
+	}
+
+	div.member img {
+		height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		display: flex; 
+		justify-content: center;
+	}
+}
+
+div.ImageGroup img
+{
+	width: 100%;
+}
