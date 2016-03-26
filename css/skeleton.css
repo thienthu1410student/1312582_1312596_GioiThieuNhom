@@ -1,0 +1,338 @@
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0 0 1em 0;
+  font-size: 93%;
+  line-height: 1.5em;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #b3ffb3;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 0 10px 0;
+}
+
+#logo {
+  height: 100px;
+  float:left
+  display:block;
+  margin:auto;
+}
+
+#logo h1 {
+  float: left;
+  line-height: 100px;
+  padding: 10px;
+}
+
+#logo img{
+  max-height: 100%;
+  width: auto; 
+}
+
+/* Section Inner */
+div.section-inner {  
+  width: 90%;
+  margin-left: 5%;
+}
+
+/* Header */
+div.header {  
+  background-color: #E9E9E9;
+  padding: 40px 0;
+}
+
+/* Navigation */
+nav {
+  background-color: #d4d4d4;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style: none;
+  float: left;
+  font-size: 93%;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #000;
+  border-right: 1px solid #bababa;
+}
+
+nav a:hover, nav a:focus {
+  background-color: #4dffff;
+}
+
+div.mid {
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+.mid .section-inner
+{
+  background-color: #ffffff;
+}
+
+div.left {  
+  width: 29.7%;
+  height: 100%;  
+  float:left;
+  background-color: #ffffff;
+  border-right-style: solid;
+  border-right-color: #66ffd9;
+}
+
+div.left li {
+  width: 100%;
+  padding: 0 10px 20px 0;
+color: blue;
+  float: left;
+
+}
+
+div.left li a
+{
+  color: blue;
+  text-decoration: none;
+}
+
+div.left li a:hover, div.left li a:focus
+{
+  font-style: italic;
+}
+
+div.content {  
+  width: 70%;
+  float: right;
+  position: relative;
+  background-color: #ffffff;
+  height: 100%;
+
+}
+
+div.content h1, div.document h1 {
+  padding-top: 20px;
+  text-align: center;
+  vertical-align: middle;
+  font-style: italic;
+  color:orange;
+}
+
+
+div.content img {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.GroupImage
+{
+  width: 100%;
+}
+
+div.footer, div.footerGroup {
+  color: black;
+  background-color: #E9E9E9;
+ 
+  padding-top: 10px;
+
+  
+  height: 100px;
+  margin-top: 100px;
+  position: relative;
+  clear: both;
+}
+div.footer
+{
+  text-align: center;
+}
+.footer img
+{
+  padding-top: 10px;
+}
+div.members {
+  margin: 0 auto;
+  width: 100%;
+}
+
+div.member {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 40%;
+  margin-right: 5%;
+  float: left;
+}
+
+div.member img {
+  float:left;
+  width: 40%;
+}
+
+div.member div {
+  float: right;
+  width: 50%;
+}
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+@media screen and (max-width: 850px) {
+  div.left {
+    width: 150px;
+  }
+  
+  div.left li {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  nav ul li {
+    width: 33%;
+  }    
+  
+   .hide-mobile {
+    display: none;
+  }   
+  
+  div.content {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  div.member {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  nav ul li {
+    width: 50%;
+    font-size: 85%;
+  }
+  
+  div.content h1 {
+    font-size: 85%;
+  }
+}
+
+.memberLeft
+{
+  margin-left: 35px;
+}
+
+.member p, .author
+{
+   text-decoration: none;
+  width: 160px;
+  text-align: center;
+ 
+    color: black;
+  
+}
+
+.member img
+{
+  border-radius: 15%;
+  
+}
+
+.footerGroup
+{
+
+  text-align: left;
+}
+
+.contentDoc
+{
+  white-space: pre-wrap;
+  overflow-y:scroll;
+  max-height: 50%;
+  padding-left: 15px;
+  overflow-x:hidden;
+}
+
+.author
+{
+  float:right;
+  padding-right: 20px;
+ 
+}
+
+.author a
+{
+  text-decoration: none;
+}
+
+.author img
+{
+  border-radius: 80%;
+}
+
+
+
+.CommentArea
+{
+
+      border-top-style: solid;;
+    border-top-color:  #66ffd9;
+    border-bottom-style: solid;;
+    border-bottom-color:  #66ffd9;
+    font-size: 20px;
+   
+     
+
+}
+.space
+{
+  height: 100px;
+}
+
+.comment
+{
+   overflow-y: scroll;
+  overflow-x: hidden;
+  height: 20%;
+
+}
+
+textarea
+{
+   height: 70px;
+  width: 100%;
+}
+
+.document
+{
+  float: right;
+  position: relative;
+  background-color: #ffffff;
+  height: 100%;
+
+}
