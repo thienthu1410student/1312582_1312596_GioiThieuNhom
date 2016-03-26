@@ -24,6 +24,7 @@ div.ThisIsMe {
 div.ThisIsMe li {
 	padding-top: 5px;
 	padding-bottom: 5px;
+    white-space:normal;
 }
 
 div.ThisIsMe ul {
