@@ -1,0 +1,68 @@
+
+.footerGroup
+{
+
+  text-align: left;
+}
+
+.contentDoc
+{
+  white-space: pre-wrap;
+  overflow-y:scroll;
+  max-height: 40%;
+  padding-left: 15px;
+  overflow-x:hidden;
+}
+
+
+.author a
+{
+  text-decoration: none;
+}
+
+.author img
+{
+  border-radius: 80%;
+}
+
+.author
+{
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.CommentTitle
+{
+
+      border-top-style: solid;;
+    border-top-color:  #66ffd9;
+    border-bottom-style: solid;;
+    border-bottom-color:  #66ffd9;
+    font-size: 20px;  
+
+}
+
+
+.CommentArea
+{
+   overflow-y: scroll;
+  overflow-x: hidden;
+  height: 10%;
+  
+
+}
+
+textarea
+{
+   height: 70px;
+  width: 100%;
+}
+
+.document
+{
+  float: right;
+  position: relative;
+  background-color: #ffffff;
+  height: 100%;
+
+}
