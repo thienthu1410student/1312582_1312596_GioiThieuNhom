@@ -17,10 +17,6 @@ div.ThisIsMe img {
 	margin-right: auto;
 }
 
-div.ThisIsMe {
-
-}
-
 div.ThisIsMe li {
 	padding-top: 5px;
 	padding-bottom: 5px;
@@ -35,27 +31,17 @@ div.ThisIsMe ul {
 }
 
 @media screen and (max-width: 700px) {
-	div.bottom {
-		margin-top: 10px;
-		margin-left: -1%;
-		width: 90%;		
-		height: 70%;
-		position: relative;		
-
-	}
-
-	div.bottom ul {
-		height: 70%;
-		overflow:hidden; 
-		overflow-y:auto;
-	}
-
 	aside {
 		border-right-style: none;
 		border-right-color: #66ffd9;
-	}
+	    position: relative;
+	    height: 50%;
+	    width: 90%;  
+	    margin-top: 10px;
+		margin-left: -1%;
+	}	
 
-	div.bottom h2 {
+	aside h2 {
 		padding-left: 10px;
 		border-top-style: solid;;
 	    border-top-color: #66ffd9;
