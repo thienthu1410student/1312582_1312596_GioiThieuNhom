@@ -1,16 +1,16 @@
-div.left ul {
+aside ul {
 	overflow:hidden; 
 	overflow-y:auto;
 	height: 90%;
 }
 
-div.left h2 {
+aside h2 {
     border-bottom-style: solid;;
     border-bottom-color:  #66ffd9;
 }
 
 div.ThisIsMe img {
-	width: 50%;
+	width: 40%;
 	border-radius: 15%;
 	display: block;
 	margin-left: auto;
@@ -50,7 +50,7 @@ div.ThisIsMe ul {
 		overflow-y:auto;
 	}
 
-	div.left {
+	aside {
 		border-right-style: none;
 		border-right-color: #66ffd9;
 	}
