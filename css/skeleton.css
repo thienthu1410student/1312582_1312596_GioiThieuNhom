@@ -14,17 +14,17 @@ body {
   padding: 0;
   margin: 0;
   background-color: #b3ffb3;
+  height: 1000px;
+  overflow: auto;
 }
 
 img {
-  max-width: 100%;
-  height: ao;
+  max-width: 100%;  
   margin: 0 0 10px 0;
 }
 
 #logo {
-  height: 100px;
-  float:left
+  height: 100px;  
   display:block;
   margin:auto;
 }
@@ -147,7 +147,7 @@ div.content img {
   margin-right: 2%;
 }
 
-footer, div.footerGroup {
+footer {
   color: black;
   background-color: #E9E9E9;  
   height: 100px;  
@@ -159,6 +159,10 @@ footer
 {
 	padding-top: 10px;
 	text-align: center;
+}
+
+footer img {
+  padding-top: 10px;
 }
 
 .active {
