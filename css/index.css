@@ -17,7 +17,7 @@ div.memberLeft p, div.memberRight p {
 
 div.memberLeft img, div.memberRight img {
 	border-radius: 25%;
-	height: 40%;
+	width: 60%;
 }
 
 div.memberLeft {
@@ -41,7 +41,8 @@ div.memberRight {
 	}
 
 	div.member img {
-		height: 100%;
+		width: 50%;
+		height: auto;
 		margin-left: auto;
 		margin-right: auto;
 		display: flex; 

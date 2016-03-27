@@ -14,17 +14,17 @@ body {
   padding: 0;
   margin: 0;
   background-color: #b3ffb3;
+  height: 1000px;
+  overflow: auto;
 }
 
 img {
-  max-width: 100%;
-  height: ao;
+  max-width: 100%;  
   margin: 0 0 10px 0;
 }
 
 #logo {
-  height: 100px;
-  float:left
+  height: 100px;  
   display:block;
   margin:auto;
 }
@@ -48,7 +48,7 @@ div.section-inner {
 }
 
 /* Header */
-div.header {  
+header {  
   background-color: #E9E9E9;
   padding: 40px 0;
 }
@@ -83,13 +83,13 @@ nav a:hover, nav a:focus {
 }
 
 div.mid {
-	overflow: hidden;
+    overflow: hidden;
     position: relative;
     width: 100%;
-	padding-top: 20px;
+    padding-top: 20px;
 }
 
-div.left {  
+aside {  
 	width: 26%;  	
 	background: #ffffff;
 	border-right-style: solid;
@@ -99,7 +99,11 @@ div.left {
 	left: 5.7%;
 }
 
-div.left li {
+aside h2 {
+    padding-left: 10px;
+}
+
+aside li {
 	width: 100%;
 	padding: 0 10px 20px 0;
 	color: blue;
@@ -107,13 +111,13 @@ div.left li {
 
 }
 
-div.left li a
+aside li a
 {
   color: blue;
   text-decoration: none;
 }
 
-div.left li a:hover, div.left li a:focus
+aside li a:hover, aside li a:focus
 {
   font-style: italic;
 }
@@ -143,17 +147,22 @@ div.content img {
   margin-right: 2%;
 }
 
-div.footer, div.footerGroup {
+footer {
   color: black;
   background-color: #E9E9E9;  
   height: 100px;  
   position: relative;
   clear: both;
 }
-div.footer
+
+footer
 {
 	padding-top: 10px;
 	text-align: center;
+}
+
+footer img {
+  padding-top: 10px;
 }
 
 .active {
@@ -175,7 +184,10 @@ div.footer
   }   
   
   div.content {
-    width: 100%;
+    display:inline-block;
+    white-space:nowrap;
+    float: none;
+    width: 100%;      
   }
 }
 
