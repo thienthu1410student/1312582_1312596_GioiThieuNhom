@@ -48,7 +48,7 @@ div.section-inner {
 }
 
 /* Header */
-div.header {  
+header {  
   background-color: #E9E9E9;
   padding: 40px 0;
 }
@@ -89,7 +89,7 @@ div.mid {
     padding-top: 20px;
 }
 
-div.left {  
+aside {  
 	width: 26%;  	
 	background: #ffffff;
 	border-right-style: solid;
@@ -99,11 +99,11 @@ div.left {
 	left: 5.7%;
 }
 
-div.left h2 {
+aside h2 {
     padding-left: 10px;
 }
 
-div.left li {
+aside li {
 	width: 100%;
 	padding: 0 10px 20px 0;
 	color: blue;
@@ -111,13 +111,13 @@ div.left li {
 
 }
 
-div.left li a
+aside li a
 {
   color: blue;
   text-decoration: none;
 }
 
-div.left li a:hover, div.left li a:focus
+aside li a:hover, aside li a:focus
 {
   font-style: italic;
 }
@@ -147,14 +147,15 @@ div.content img {
   margin-right: 2%;
 }
 
-div.footer, div.footerGroup {
+footer, div.footerGroup {
   color: black;
   background-color: #E9E9E9;  
   height: 100px;  
   position: relative;
   clear: both;
 }
-div.footer
+
+footer
 {
 	padding-top: 10px;
 	text-align: center;
