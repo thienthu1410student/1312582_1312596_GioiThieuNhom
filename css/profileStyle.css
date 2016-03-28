@@ -49,3 +49,13 @@ div.ThisIsMe ul {
 	    border-bottom-color: #66ffd9;
 	}
 }
+
+@media screen and (max-width: 380px) {
+	div.ThisIsMe {
+		font-size: 0.6em;
+	}
+
+	aside {
+		font-size: 0.8em;
+	}
+}
