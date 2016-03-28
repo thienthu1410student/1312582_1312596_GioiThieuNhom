@@ -75,6 +75,10 @@ textarea
     height: 10%;    
   }
 
+  .CommentArea {
+  	height: 25%;
+  }
+
   .author h4 {
     margin-top: 15px;
   }
