@@ -1,10 +1,12 @@
-# BT-UDPT-1 - *SAO'S WEBSITE*
+# BT-UDPT-1 - **SAO'S WEBSITE**
 
 **SAO'S WEBSITE** là một bài tập 1 tại môn UDPT.
 
-Thành viên: **Tên và mã số sinh viên thành viên**
+Thành viên: 
+**1312582 - Bùi Phạm Thiên Thư**
+**1312596 - Dương Tiễn**
 
-URL: **URL hosting của bài tập**
+URL: **https://2016udptbt1.firebaseapp.com/**
 
 ## Yêu cầu
 
