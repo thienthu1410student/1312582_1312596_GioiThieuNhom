@@ -1,6 +1,6 @@
-# BT-UDPT-1 - *Name of your app*
+# BT-UDPT-1 - *SAO'S WEBSITE*
 
-**Name of your app** là một bài tập 1 tại môn UDPT.
+**SAO'S WEBSITE** là một bài tập 1 tại môn UDPT.
 
 Thành viên: **Tên và mã số sinh viên thành viên**
 
