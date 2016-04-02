@@ -16,7 +16,7 @@ Yêu cầu **GIT**:
 * [ ] Sử dụng GIT trên 1 branch.
 * [ ] Sử dụng GIT theo Centralized Workflow.
 * [x] Sử dụng GIT theo Feature Branch Workflow.
-* [ ] Sử dụng GIT theo Gitflow Workflow.
+* [x] Sử dụng GIT theo Gitflow Workflow.
 
 Yêu cầu **thiết kế**:
 
